@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/doc-collection",
   siteMetadata: {
     title: 'My Collection of Markdowns',
     description: 'This is my collection of various documentation.',

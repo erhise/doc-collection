@@ -1,5 +1,5 @@
 ---
-date: "2018-12-08"
+date: "2018-12-18"
 title: "Advanced TypeScript"
 tags: ['typescript', 'advanced']
 ---

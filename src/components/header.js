@@ -6,13 +6,7 @@ const TitleAndDescription = ({ data }) => {
   const description = data.site.siteMetadata.description;
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-      }}
-    >
+    <div>
       <h2 style={{ marginBottom: 0 }}>{title}</h2>
       <p>{description}</p>
     </div>

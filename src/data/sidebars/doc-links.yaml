@@ -1,0 +1,20 @@
+- title: Documentation
+  items:
+    - title: All documentation
+      link: /docs
+- title: Terminal/OS/git
+  items:
+    - title: Conventional Commits
+      link: /docs/conventional-commits/
+    - title: Shortcuts Ubuntu
+      link: /docs/shortcuts-ubuntu/
+    - title: VIM Commands
+      link: /docs/vim-commands/
+- title: Other
+  items:
+    - title: Algorithms in JavaScript
+      link: /docs/algorithms-in-javascript/
+    - title: Advanced TypeScript
+      link: /docs/advanced-typescript/
+- title: Browse all tags
+  link: /tags/

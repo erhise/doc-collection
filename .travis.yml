@@ -3,18 +3,23 @@ cache:
     directories:
         - node_modules
 node_js:
-    - 'node'
+    - node
 git:
     depth: 3
-script:
-    - npm run deploy-gh
-deploy:
-    provider: pages
-    skip-cleanup: true
-    keep-history: true
-    github-token: $GITHUB_TOKEN
-    local-dir: public
-    target-branch: gh-pages
-    on:
-        branch: master
-
+branches:
+    only:
+    - master
+jobs:
+    include:
+        if: branch = master
+        - stage: deploy
+          script: npm run deploy-gh
+          deploy:
+            provider: pages
+            skip-cleanup: true
+            keep-history: true
+            github-token: $GITHUB_TOKEN
+            local-dir: public
+            target-branch: gh-pages
+            on:
+                branch: master

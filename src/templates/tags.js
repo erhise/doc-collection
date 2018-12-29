@@ -1,7 +1,9 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
+import Layout from '../components/layout';
+import Container from '../components/container';
 
-const TagRoute = ({ data, pageContext }) => {
+const TagRoute = ({ data, pageContext, location }) => {
   const { tag } = pageContext;
   const { edges, totalCount } = data.allMarkdownRemark;
   const tagHeader = `${totalCount} post${
@@ -9,19 +11,21 @@ const TagRoute = ({ data, pageContext }) => {
   } tagged with "${tag}"`;
 
   return (
-    <div>
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
-          const { title } = node.frontmatter;
-          return (
-            <li key={node.fields.slug}>
-              <Link to={node.fields.slug}>{title}</Link>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
+    <Layout location={location}>
+      <Container>
+        <h1 css={{ marginTop: 0 }}>{tagHeader}</h1>
+        <ul>
+          {edges.map(({ node }) => {
+            const { fields: { slug }, frontmatter: { title } } = node;
+            return (
+              <li key={slug}>
+                <Link to={slug}>{title}</Link>
+              </li>
+            );
+          })}
+        </ul>
+      </Container>
+    </Layout>
   );
 };
 

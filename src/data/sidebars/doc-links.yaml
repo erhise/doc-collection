@@ -2,6 +2,13 @@
   items:
     - title: All documentation
       link: /docs
+- title: Angular Start
+  link: /docs/angular/
+  items:
+    - title: Change Detection
+      link: /docs/angular-change-detection/
+    - title: Change Detection Links
+      link: /docs/angular-change-detection-links/
 - title: Terminal/OS/git
   items:
     - title: Conventional Commits
@@ -18,3 +25,4 @@
       link: /docs/advanced-typescript/
 - title: Browse all tags
   link: /tags/
+

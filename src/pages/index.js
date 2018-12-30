@@ -9,7 +9,7 @@ const IndexRoute = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Container>
-        <h1 css={{ marginTop: 0 }}>Willkommen mein führer</h1>
+        <h1 css={{ marginTop: 0 }}>Under construction</h1>
         <div
           css={{
             display: 'flex',

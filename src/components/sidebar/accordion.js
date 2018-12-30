@@ -118,7 +118,7 @@ class Accordion extends React.Component {
             },
           }}
         >
-          {this.props.item.items.map(subItem => (
+          {item.items.map(subItem => (
             <Item
               activeItemLink={activeItemLink}
               activeItemParents={activeItemParents}
@@ -132,11 +132,11 @@ class Accordion extends React.Component {
               onSectionTitleClick={onSectionTitleClick}
               openSectionHash={openSectionHash}
               styles={{
-                ...(this.props.item.ui === 'steps' && {
+                ...(item.ui === 'steps' && {
                   ...styles.ulStepsUI,
                 }),
               }}
-              ui={this.props.item.ui}
+              ui={item.ui}
             />
           ))}
         </ul>

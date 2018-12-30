@@ -1,7 +1,11 @@
 const isItemActive = (location, item, activeItemHash) => {
-  const linkMatchesPathname = item.link === location.pathname
+  let pathName = location.pathname;
+  if (pathName.startsWith('/doc-collection')) {
+    pathName = pathName.substring(15);
+  }
+  const linkMatchesPathname = item.link === pathName
   const linkWithoutHashMatchesPathname =
-    item.link.replace(/#.*/, ``) === location.pathname
+    item.link.replace(/#.*/, ``) === pathName
   const activeItemHashFalsy = !activeItemHash || activeItemHash === `NONE`
 
   if (activeItemHash) {
@@ -9,7 +13,7 @@ const isItemActive = (location, item, activeItemHash) => {
       return item
     }
 
-    if (item.link === `${location.pathname}#${activeItemHash}`) {
+    if (item.link === `${pathName}#${activeItemHash}`) {
       return item
     }
   }
@@ -18,7 +22,7 @@ const isItemActive = (location, item, activeItemHash) => {
     return item
   }
 
-  if (item.link === `${location.pathname}${location.hash}` && !activeItemHash) {
+  if (item.link === `${pathName}${location.hash}` && !activeItemHash) {
     return item
   }
 

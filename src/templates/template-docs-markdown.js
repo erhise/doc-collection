@@ -6,7 +6,7 @@ import Container from '../components/container';
 import { itemListDocs } from '../utils/sidebar/item-list';
 
 const Template = ({data, pageContext, location}) => {
-  const { next, prev } = pageContext;
+  // const { next, prev } = pageContext;
   const page = data.markdownRemark;
   const title = page.frontmatter.title;
   return (
@@ -18,7 +18,7 @@ const Template = ({data, pageContext, location}) => {
         <div className='markdown'
           dangerouslySetInnerHTML={{__html: page.html}}
         />
-        {prev &&
+        {/* {prev &&
           <Link to={prev.fields.slug}>
             Prev
           </Link>
@@ -27,10 +27,7 @@ const Template = ({data, pageContext, location}) => {
           <Link to={next.fields.slug}>
             Next
           </Link>
-        }
-        <div>
-          <Link to='/'>Go back Home</Link>
-        </div>
+        } */}
       </Container>
     </Layout>
   )

@@ -1,28 +1,31 @@
-- title: Documentation
+- title: Summary
   items:
     - title: All documentation
       link: /docs
-- title: Angular Start
+- title: Angular
   link: /docs/angular/
   items:
     - title: Change Detection
       link: /docs/angular-change-detection/
     - title: Change Detection Links
       link: /docs/angular-change-detection-links/
-- title: Terminal/OS/git
-  items:
-    - title: Conventional Commits
-      link: /docs/conventional-commits/
-    - title: Shortcuts Ubuntu
-      link: /docs/shortcuts-ubuntu/
-    - title: VIM Commands
-      link: /docs/vim-commands/
-- title: Other
+- title: JavaScript
   items:
     - title: Algorithms in JavaScript
       link: /docs/algorithms-in-javascript/
+- title: TypeScript
+  items:
     - title: Advanced TypeScript
       link: /docs/advanced-typescript/
-- title: Browse all tags
-  link: /tags/
-
+- title: Terminal
+  items:
+    - title: Vim Commands
+      link: /docs/vim-commands/
+- title: Git
+  items:
+    - title: Conventional Commits
+      link: /docs/conventional-commits/
+- title: Other
+  items:
+    - title: Shortcuts Ubuntu
+      link: /docs/shortcuts-ubuntu/

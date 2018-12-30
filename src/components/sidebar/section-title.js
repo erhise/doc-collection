@@ -51,7 +51,7 @@ const TitleButton = ({
     css={{
       ...styles.resetButton,
       ...styles.button,
-      paddingLeft: level === 0 ? 40 : 40,
+      paddingLeft: level === 0 ? 40 : 0,
       paddingRight: `0 !important`,
       minHeight: 40,
       "&:before": {

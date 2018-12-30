@@ -41,7 +41,7 @@ const CreateLink = ({
           isDraft && styles.draft,
           isActive && styles.activeLink,
           isParentOfActiveItem && styles.isParentOfActiveItem,
-          customCSS & customCSS,
+          customCSS && customCSS,
         ]}
         onClick={onLinkClick}
         to={item.link}

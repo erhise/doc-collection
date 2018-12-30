@@ -1,6 +1,6 @@
 ---
 date: "2018-12-18"
-title: "VIM commands"
+title: "Vim Commands"
 tags: ['vim', 'commands']
 ---
 List of useful commands for vim editing.

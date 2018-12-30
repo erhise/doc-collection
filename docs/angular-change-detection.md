@@ -12,6 +12,7 @@ Two main building blocks of change detection in Angular:
 The view is an Angular low-level abstraction. There is a direct relationship between a view and a component. All operations like property checks and DOM updates are performed on views.
 
 > A View is a fundamental building block of the application UI. It is the smallest grouping of Elements which are created and destroyed together.
+> 
 > Properties of elements in a View can change, but the structure of elements in a View cannot. Changing the structure of Elements can only be done by inserting, moving or removing nested Views via a ViewContainerRef. Each View can contain many ViewContainers.
 
 ### DOM Nodes

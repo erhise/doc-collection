@@ -3,7 +3,7 @@ date: "2018-12-16"
 title: "Algorithms in JavaScript"
 tags: ['javascript', 'algorithms']
 ---
-Big-O notation is a special notation that tells you how fast an algorithm is. It does not tell you how fast in seconds your algorithm will run to completion (*duh*, of course). Essentially, Big-O tells us the worst case scenario our algorithm will run at.
+Big-O notation is a special notation that tells you how fast an algorithm is. It does not tell you how fast in seconds your algorithm will run to completion. Essentially, Big-O tells us the worst case scenario our algorithm will run at.
 
 Algorithms teach you that large problems can be broken down into smaller problems.
 How can we write a maintainable solution that will scale efficiently?

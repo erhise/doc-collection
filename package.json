@@ -12,6 +12,7 @@
     "@emotion/core": "^10.0.5",
     "@emotion/styled": "^10.0.5",
     "axios": "^0.18.0",
+    "firebase": "^5.7.2",
     "gatsby": "^2.0.33",
     "gatsby-plugin-emotion": "^4.0.1",
     "gatsby-plugin-manifest": "^2.0.13",

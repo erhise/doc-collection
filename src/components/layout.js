@@ -1,15 +1,15 @@
 import React from 'react';
-import presets, { colors } from '../utils/presets';
+import presets from '../utils/presets';
 import Banner from '../components/banner';
 import Navigation from '../components/navigation';
 import PageWithSidebar from '../components/page-with-sidebar';
 import NavigationMobile from './navigation-mobile';
 
 // Import Futura PT typeface
-import "../fonts/Webfonts/futurapt_book/stylesheet.css"
-import "../fonts/Webfonts/futurapt_bookitalic/stylesheet.css"
-import "../fonts/Webfonts/futurapt_demi/stylesheet.css"
-import "../fonts/Webfonts/futurapt_demiitalic/stylesheet.css"
+import "../../static/fonts/Webfonts/futurapt_book/stylesheet.css"
+import "../../static/fonts/Webfonts/futurapt_bookitalic/stylesheet.css"
+import "../../static/fonts/Webfonts/futurapt_demi/stylesheet.css"
+import "../../static/fonts/Webfonts/futurapt_demiitalic/stylesheet.css"
 
 // Other fonts
 import "typeface-spectral"

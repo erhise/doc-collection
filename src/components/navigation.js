@@ -1,6 +1,6 @@
 import React from 'react';
 import presets, { colors } from '../utils/presets';
-import typography, { rhythm, scale, options } from '../utils/typography';
+import typography, { rhythm, scale } from '../utils/typography';
 import { Link } from 'gatsby';
 import logo from '../logo.svg';
 
@@ -24,7 +24,7 @@ const NavItem = ({ linkTo, children }) => (
 );
 
 const Navigation = ({ pathname }) => {
-  const isHomepage = pathname === '/';
+  // const isHomepage = pathname === '/';
 
   return (
     <header

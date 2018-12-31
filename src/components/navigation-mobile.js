@@ -47,6 +47,7 @@ const NavigationMobile = () => (
       <MobileNavItem linkTo="/" label="Home" />
       <MobileNavItem linkTo="/docs" label="Docs" />
       <MobileNavItem linkTo="/tags" label="Tags" />
+      <MobileNavItem linkTo="/links" label="Links" />
     </div>
   </React.Fragment>
 );

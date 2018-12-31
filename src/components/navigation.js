@@ -76,6 +76,7 @@ const Navigation = ({ pathname }) => {
           <ul css={styles.ulContainer}>
             <NavItem linkTo='/docs'>Docs</NavItem>
             <NavItem linkTo='/tags'>Tags</NavItem>
+            <NavItem linkTo='/links'>Links</NavItem>
           </ul>
         </nav>
         <div css={styles.searchAndSocialContainer}>

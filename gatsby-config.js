@@ -20,5 +20,18 @@ module.exports = {
       },
     },
     `gatsby-plugin-emotion`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `erhise`,
+        short_name: `erhise`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#2bc766`,
+        display: `minimal-ui`,
+        icon: `src/assets/gatsby-icon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 };

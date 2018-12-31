@@ -25,9 +25,9 @@ module.exports = {
       options: {
         name: `erhise`,
         short_name: `erhise`,
-        start_url: `/`,
+        start_url: `/doc-collection/`,
         background_color: `#ffffff`,
-        theme_color: `#2bc766`,
+        theme_color: `#236678`,
         display: `minimal-ui`,
         icon: `src/assets/gatsby-icon.png`,
       },

@@ -22,3 +22,6 @@ List of useful commands for vim editing.
 * `G` : goto last line
 * `b` : step word backward
 * `e` : step word forward
+
+### Search and replace
+* `:s/foo/bar/g` : replace all foo with bar on current line

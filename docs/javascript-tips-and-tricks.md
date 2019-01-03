@@ -18,9 +18,10 @@ uniqueArray(['Dan', 'Sarah', 'Sophie', 'Sarah']);
 const uniqueArray2 = arr => Array.from(new Set(arr));
 
 // Way 3: using Array#filter and Set() - may be faster
+const seen = new Set();
 const uniqueArray3 = arr => arr.filter(x => {
     if (seen.has(x)) return false;
-    seen add(x); return true;
+    seen.add(x); return true;
 });
 ```
 

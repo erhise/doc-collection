@@ -29,3 +29,5 @@
   items:
     - title: Shortcuts Ubuntu
       link: /docs/shortcuts-ubuntu/
+    - title: Useful Linux Commands
+      link: /docs/useful-linux-commands/

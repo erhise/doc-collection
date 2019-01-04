@@ -13,6 +13,10 @@
   items:
     - title: Algorithms in JavaScript
       link: /docs/algorithms-in-javascript/
+- title: Chrome DevTools
+  items:
+    - title: Chrome DevTools tips*
+      link: /docs/chrome-devtools-tips/
 - title: TypeScript
   items:
     - title: Advanced TypeScript

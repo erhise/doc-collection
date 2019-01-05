@@ -13,6 +13,8 @@
   items:
     - title: Algorithms in JavaScript
       link: /docs/algorithms-in-javascript/
+    - title: JavaScript Tips and Tricks
+      link: /docs/javascript-tips-and-tricks/
 - title: Chrome DevTools
   items:
     - title: Chrome DevTools tips*

@@ -25,3 +25,10 @@ List of useful commands for vim editing.
 
 ### Search and replace
 * `:s/foo/bar/g` : replace all foo with bar on current line
+
+### Select and copy or move
+1. Press `v` to begin character-based visual selection, or `V` to select whole lines.
+2. Move cursor to select text.
+3. Press `d` (delete) to cut, or `y` (yank) to copy.
+4. Press `p` to paste after the cursor, or `P` to paste before.
+

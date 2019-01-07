@@ -27,6 +27,8 @@
   items:
     - title: Vim Commands
       link: /docs/vim-commands/
+    - title: Useful Linux Commands
+      link: /docs/useful-linux-commands/
 - title: Git
   items:
     - title: Conventional Commits
@@ -35,5 +37,3 @@
   items:
     - title: Shortcuts Ubuntu
       link: /docs/shortcuts-ubuntu/
-    - title: Useful Linux Commands
-      link: /docs/useful-linux-commands/

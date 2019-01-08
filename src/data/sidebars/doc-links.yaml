@@ -9,6 +9,8 @@
       link: /docs/angular-change-detection/
     - title: Change Detection Links
       link: /docs/angular-change-detection-links/
+    - title: Lifecycle hooks*
+      link: /docs/angular-lifecycles-hooks/
 - title: JavaScript
   items:
     - title: Algorithms in JavaScript

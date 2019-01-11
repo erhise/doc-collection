@@ -17,6 +17,10 @@
       link: /docs/algorithms-in-javascript/
     - title: JavaScript Tips and Tricks
       link: /docs/javascript-tips-and-tricks/
+- title: RxJs
+  items:
+    - title: Basic RxJs stuff*
+      link: /docs/basic-rxjs-stuff/
 - title: Chrome DevTools
   items:
     - title: Chrome DevTools tips*

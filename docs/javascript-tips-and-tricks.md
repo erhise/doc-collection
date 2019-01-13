@@ -69,3 +69,20 @@ for (; i<12; i++) {
 
 console.log(i); // 8
 ```
+
+### IIFE with closures
+**IIFE**: Immediately invoked function expression.
+
+```javascript
+const app = (function() {
+    const carId = 123;
+    const getId = function() {
+        return carId;
+    };
+    return {
+        getId: getId
+    };
+})();
+console.log(app.getId()); // 123
+```
+

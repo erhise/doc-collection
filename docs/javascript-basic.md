@@ -1,7 +1,7 @@
 ---
 date: "2019-01-13"
 title: "JavaScript Basics"
-tags: ['fundamentals, 'basic', 'javascript']
+tags: ['fundamentals', 'basic', 'javascript']
 ---
 Fundamentals of JavaScript.
 

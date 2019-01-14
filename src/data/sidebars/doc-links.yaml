@@ -13,6 +13,8 @@
       link: /docs/angular-lifecycles-hooks/
 - title: JavaScript
   items:
+    - title: JavaScript Basics
+      link: /docs/javascript-basic/
     - title: Algorithms in JavaScript
       link: /docs/algorithms-in-javascript/
     - title: JavaScript Tips and Tricks

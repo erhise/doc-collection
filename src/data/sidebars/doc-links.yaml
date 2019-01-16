@@ -31,6 +31,10 @@
   items:
     - title: Advanced TypeScript
       link: /docs/advanced-typescript/
+- title: Docker
+  items:
+    - title: Docker
+      link: /docs/docker/
 - title: Terminal
   items:
     - title: Vim Commands

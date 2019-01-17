@@ -2,4 +2,5 @@
 
 This is the collection site of various documentation for erhise 
 
-* https://erhise.github.io/doc-collection/
+Currently found at:
+https://erhise.github.io/doc-collection/

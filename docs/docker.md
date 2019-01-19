@@ -1,7 +1,7 @@
 ---
 date: "2019-01-16"
 title: "Docker"
-tags: ['Docker']
+tags: ['docker']
 ---
 General information and Docker commands
 

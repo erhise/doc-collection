@@ -31,10 +31,13 @@
   items:
     - title: Advanced TypeScript
       link: /docs/advanced-typescript/
-- title: Docker
+- title: Deployment
   items:
-    - title: Docker
+    - title: Docker*
       link: /docs/docker/
+  items:
+    - title: Nginx*
+      link: /docs/nginx/
 - title: Terminal
   items:
     - title: Vim Commands

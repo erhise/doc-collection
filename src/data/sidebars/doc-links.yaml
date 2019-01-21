@@ -35,7 +35,6 @@
   items:
     - title: Docker*
       link: /docs/docker/
-  items:
     - title: Nginx*
       link: /docs/nginx/
 - title: Terminal

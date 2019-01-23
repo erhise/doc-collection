@@ -41,6 +41,8 @@
   items:
     - title: Vim Commands
       link: /docs/vim-commands/
+    - title: Grep
+      link: /docs/grep/
     - title: Useful Linux Commands
       link: /docs/useful-linux-commands/
 - title: Git

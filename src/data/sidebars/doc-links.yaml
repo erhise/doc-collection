@@ -11,6 +11,8 @@
       link: /docs/angular-change-detection-links/
     - title: Lifecycle hooks*
       link: /docs/angular-lifecycles-hooks/
+    - title: Structure*
+      link: /docs/angular-structure/
 - title: JavaScript
   items:
     - title: JavaScript Basics

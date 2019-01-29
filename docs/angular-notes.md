@@ -16,3 +16,25 @@ Some basic, general stuff
 * Feature components
 * Shared functionality
 
+## LIFT
+* Locate code quickly
+* Identify the code at a glance
+* Keep the flattest structure you can
+* Try to be DRY
+
+## Preventing reimport of Core
+```javascript
+export function throwIfAlreadyLoaded(parentModule: any, moduleName: string) {
+  if (parentModule) {
+    throw new Error(`${moduleName} has alreay been loaded. Import Core modules in the AppModule only.`);
+  }
+}
+
+import { throwIfAlreadyLoaded } from './import.guard';
+
+export class CoreModule {
+  constructor(@Optional() @SkipSelf() parentModule: CoreModule) {
+    throwIfAlreadyLoaded(parentModule, 'CoreModule');
+  }
+}
+```

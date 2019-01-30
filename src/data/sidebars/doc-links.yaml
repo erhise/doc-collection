@@ -27,6 +27,8 @@
   items:
     - title: Basic RxJs stuff*
       link: /docs/basic-rxjs-stuff/
+    - title: RxJs Concepts
+      link: /docs/rxjs-concepts/
 - title: Chrome DevTools
   items:
     - title: Chrome DevTools tips*

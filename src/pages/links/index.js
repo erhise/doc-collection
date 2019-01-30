@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 
 import presets, { colors } from '../../utils/presets';
 import { rhythm, options } from '../../utils/typography';

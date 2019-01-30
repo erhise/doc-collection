@@ -51,6 +51,8 @@
       link: /docs/grep/
     - title: Useful Linux Commands
       link: /docs/useful-linux-commands/
+    - title: fx json
+      link: /docs/fx-json/
 - title: Git
   items:
     - title: Conventional Commits

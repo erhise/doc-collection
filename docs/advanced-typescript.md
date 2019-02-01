@@ -5,6 +5,27 @@ tags: ['typescript', 'advanced']
 ---
 Some various TypeScript tips and tricks.
 
+### Constant enums
+As long as you are using constant values for your `enum` you should really make it a **constant enum**.
+
+```typescript
+const enum Compass {
+  North,
+  East,
+  South,
+  West
+}
+```
+
+By adding `const` in front of your `enum`, it will be completely removed during compilation. This means any reference to the `enum` is replaced with the actual value in the compiled code.
+
+For example, if you have the following TypeScript:
+```typescript
+const foo: Compass = Compass.North;
+var foo = 0;
+```
+Hence, **constant enums** give us all the benefits of enumerations with no overhead.
+
 ### Numeric Separator
 Since TypeScript 2.7 it is possible to add numeric separators
 

@@ -38,3 +38,7 @@ export class CoreModule {
   }
 }
 ```
+
+## Reference vs. Value Types
+Short about changeDetection, no updated value and immutability. A valid term to use.
+

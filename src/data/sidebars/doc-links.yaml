@@ -23,6 +23,8 @@
       link: /docs/algorithms-in-javascript/
     - title: JavaScript Tips and Tricks
       link: /docs/javascript-tips-and-tricks/
+    - title: Web Workers*
+      link: /docs/web-workers/
 - title: RxJs
   items:
     - title: Basic RxJs stuff*

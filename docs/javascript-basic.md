@@ -5,6 +5,18 @@ tags: ['fundamentals', 'basic', 'javascript']
 ---
 Fundamentals of JavaScript.
 
+### if condition
+```javascript
+if ( some_variable ) {
+    // we don't get here if some_variable is null, undefined, 0, NaN, false or ""
+}
+```
+The two lines are equivalent:
+```javascript
+if ( some_variable != null ) {}
+if ( typeof(some_variable) !== "undefined" && some_variable !== null) {}
+```
+
 ### IIFE with closures
 **IIFE**: Immediately invoked function expression.
 Any variables and functin within the IIFE will continue to exists. But need to make sure to return a reference.

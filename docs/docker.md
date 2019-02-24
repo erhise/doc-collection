@@ -17,3 +17,6 @@ General information and Docker commands
 |docker ps -a|Show all containers|
 |docker rm <container ID>|Remove container|
 
+### Other
+`docker system prune` will remove all stopped containers, all dangling images and all build cache.
+

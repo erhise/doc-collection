@@ -8,6 +8,9 @@ Standardized commit messages makes it easier for people to contribute to your pr
 
 [Source of Reference](https://www.conventionalcommits.org/en)
 
+## Add section about automatic changelog
+...
+
 ## Example commit message
 ```
 <type>[optional scope]: <description>

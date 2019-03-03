@@ -41,7 +41,7 @@
       link: /docs/advanced-typescript/
 - title: Deployment
   items:
-    - title: Docker*
+    - title: Docker
       link: /docs/docker/
     - title: Nginx*
       link: /docs/nginx/

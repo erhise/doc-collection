@@ -32,3 +32,7 @@ List of useful commands for vim editing.
 3. Press `d` (delete) to cut, or `y` (yank) to copy.
 4. Press `p` to paste after the cursor, or `P` to paste before.
 
+### Other
+```
+:set tabstop=x shiftwidth=x expandtab
+```
